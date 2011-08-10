@@ -1,0 +1,6 @@
+Phoebe
+PHP Frontend Build Engine
+
+Written by Andreas Nebiker
+
+Quickly develop web frontends using the Twig templating language. No webserver needed, just run phoebe.php from the console and Phoebe will render all templates into static .html files. Phoebe will also copy all public resources and will create dummy images for all dimensions you specify.
