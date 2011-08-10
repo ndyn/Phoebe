@@ -1,0 +1,21 @@
+{% extends "layout/default.html" %}
+
+{% block header %}
+<span>This is a custom header, which overrides the default</span>
+{% endblock header %}
+
+{% block localjs %}
+<script type="text/javascript">
+	alert('There is local JavaScript on this page.');
+</script>
+{% endblock localjs %}
+
+{% block main %} 		
+<div id="main" role="main">
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor feugiat dui, nec sodales massa adipiscing vel. Nam varius porttitor metus, ac cursus mi eleifend viverra. Pellentesque condimentum, tellus volutpat pretium venenatis, nisl massa molestie turpis, vitae pretium neque libero in ante. Sed in auctor metus. Donec gravida pharetra lacinia. Cras sit amet ligula ante. Ut rutrum eros in libero scelerisque laoreet. Maecenas lorem erat, tincidunt quis suscipit ac, viverra eu libero. Quisque semper consectetur nunc a ultricies. Nam posuere volutpat vulputate. Cras hendrerit, arcu eget molestie interdum, est quam lobortis orci, vel facilisis lorem est a nisi.</p>
+	<p>Nam cursus mauris quis mauris congue pretium. Donec sit amet ligula elit, convallis vulputate quam. Curabitur varius metus id velit ultrices at rhoncus nunc iaculis. In eget laoreet eros. Suspendisse potenti. Nam scelerisque nisi eget odio facilisis sollicitudin. Nullam ullamcorper sodales rutrum. Aenean volutpat nisi vitae sapien ultricies pharetra. Fusce neque ipsum, auctor id condimentum sit amet, convallis eu augue. Ut velit nibh, venenatis quis vestibulum quis, lobortis id justo. Sed eget ipsum vitae risus ultricies pretium. Curabitur porttitor tempor nunc molestie faucibus. Aliquam erat volutpat.</p>
+	<p>Proin condimentum aliquam urna vitae consectetur. Fusce pulvinar volutpat tortor eget interdum. Quisque sed est mi, non dapibus eros. Vestibulum consequat ultrices laoreet. Integer volutpat orci eleifend urna tempor aliquam. Quisque imperdiet tincidunt accumsan. Proin suscipit arcu ac neque venenatis posuere. Quisque et ante orci. Quisque dolor lectus, consequat eleifend auctor non, congue et libero. Pellentesque vitae elit elit. Nulla rutrum leo et massa pellentesque nec ultrices leo tempor.</p>
+	<p>Sed feugiat malesuada risus, eget posuere enim egestas ornare. Proin ac posuere dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce augue sem, venenatis auctor sollicitudin elementum, pharetra eget justo. Duis in odio massa. Vivamus nec volutpat ligula. Nam neque mi, elementum id semper vel, consectetur eget turpis. Curabitur at massa ante, id pretium est. Maecenas volutpat pretium tellus sit amet ullamcorper. Mauris sed nunc sit amet elit cursus dignissim non id sapien. Donec vitae aliquet massa. Nullam congue leo eu eros porttitor accumsan.</p>
+	<p>Cras laoreet mollis est. Sed ut sollicitudin sem. Ut dictum, sapien id ullamcorper tincidunt, mauris odio semper orci, nec suscipit felis mi quis nunc. Vestibulum adipiscing consequat elit, non fringilla libero rutrum nec. Aliquam ligula lectus, imperdiet ut sodales a, iaculis quis quam. Vivamus blandit eros vel purus lobortis ultrices. Vestibulum at dui at quam semper sollicitudin vitae ac lacus. Cras tempus pellentesque nibh, eu elementum leo tincidunt sed. Donec lobortis elementum imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas massa turpis, volutpat ut pretium a, accumsan eget metus. Aliquam et lectus quis sem iaculis volutpat sed id tellus. Donec risus lorem, porttitor vel rhoncus sit amet, varius et tellus. Mauris ultrices, enim a ullamcorper consequat, augue nisl varius risus, sit amet mattis sem diam sit amet ipsum. Donec aliquam, neque in accumsan consectetur, velit sem laoreet odio, vel imperdiet eros sem non nisl.</p> 
+</div>
+{% endblock main%}
